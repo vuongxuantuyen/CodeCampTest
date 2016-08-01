@@ -24,7 +24,7 @@
     const CGFloat btnWidgh=(screenWidth-2*vien-8*khe)/9;
     const CGFloat btnHeight=(screenHeight-2*vien-9*khe -vien)/11;
     for (int i=0; i<10; i++) {
-        for (int j = 0; j<9; j++) {
+        for (int j = 0; j<20; j++) {
             UIButton *btn= [[UIButton alloc]initWithFrame:CGRectMake(vien+j*(khe+btnWidgh), vien+i*(khe+btnHeight), btnWidgh, btnHeight)];
             [btn setBackgroundColor:[UIColor blueColor]];
             [self.view addSubview:btn];
